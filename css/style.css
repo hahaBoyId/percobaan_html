@@ -15,7 +15,7 @@ main {
   border: 1px solid lightgray;
   border-radius: 8px;
   padding: 24px 32px;
-  box-shadow: 4px 4px 4px lightgray
+  box-shadow: 4px 4px 4px lightgray;
 }
 
 .profil {
@@ -33,10 +33,13 @@ img {
   object-fit: cover;
 }
 
-input {
+.input{
   height: 24px;
   width: 100%;
-  box-sizing: none
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 6px;
+  border-radius: 2px
 }
 
 p{
@@ -49,4 +52,17 @@ p{
   display: flex;
   gap: px;
   font-size: 20px;
+}
+
+.submit{
+  border: none;
+  width: 100%;
+  margin-top: 18px;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 2px;
+}
+.submit:hover{
+  background-color: lightgreen;
+  color: white;
 }
