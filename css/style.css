@@ -1,0 +1,52 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 24px 32px;
+  box-shadow: 4px 4px 4px lightgray
+}
+
+.profil {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+input {
+  height: 24px;
+  width: 100%;
+  box-sizing: none
+}
+
+p{
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.account {
+  display: flex;
+  gap: px;
+  font-size: 20px;
+}
